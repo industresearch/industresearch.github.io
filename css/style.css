@@ -6203,6 +6203,16 @@ a .text-dark:focus, a .text-dark:hover {
 		z-index: 1000;
 	}
 
+	#pagetopbtn {
+		font-size: 10px;
+	}
+
+	#pagetopbtn a {
+		width: 70px;
+		height: 70px;
+		padding: 28px 0;
+	}
+
 }
 
 @media (min-width: 576px) {
@@ -7236,6 +7246,16 @@ a .text-dark:focus, a .text-dark:hover {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
+	}
+
+	#pagetopbtn {
+		font-size: 10px;
+	}
+
+	#pagetopbtn a {
+		width: 70px;
+		height: 70px;
+		padding: 28px 0;
 	}
 
 }
@@ -9678,6 +9698,16 @@ a .text-dark:focus, a .text-dark:hover {
 			0px -2px 9px #ff8c00;
 	}
 
+	#pagetopbtn {
+		font-size: 14px;
+	}
+
+	#pagetopbtn a {
+		width: 90px;
+		height: 90px;
+		padding: 34px 0;
+	}
+
 }
 
 .caption {
@@ -9887,34 +9917,6 @@ a .text-dark:focus, a .text-dark:hover {
 	text-align: center;
 	border-radius: 50%;
 	outline: none;
-}
-
-@media (min-width: 768px) {
-
-	#pagetopbtn {
-		font-size: 10px;
-	}
-
-	#pagetopbtn a {
-		width: 70px;
-		height: 70px;
-		padding: 24px 0;
-	}
-
-}
-
-@media (max-width: 767px) {
-
-	#pagetopbtn {
-		font-size: 8px;
-	}
-
-	#pagetopbtn a {
-		width: 60px;
-		height: 60px;
-		padding: 22px 0;
-	}
-
 }
 
 .animation {
