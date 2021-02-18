@@ -10390,3 +10390,27 @@ table td {
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
 }
+
+.news_box {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #62c1ce;
+}
+.news_box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    right: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+}
+.news_box p {
+    margin: 0; 
+    padding: 0;
+}
