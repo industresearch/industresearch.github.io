@@ -6078,7 +6078,7 @@ a .text-dark:focus, a .text-dark:hover {
 	display: inline-block;
 	text-decoration: none;
 	color: #668ad8;
-	width: 95px;
+	width: 80px;
 	height: 110px;
 	border-radius: 20%;
 	border: double 4px #668ad8;
@@ -8012,6 +8012,19 @@ table td {
 		width: 70px;
 		height: 70px;
 		padding: 28px 0;
+	}
+
+	.btn-circle {
+		display: inline-block;
+		text-decoration: none;
+		color: #668ad8;
+		width: 95px;
+		height: 110px;
+		border-radius: 20%;
+		border: double 4px #668ad8;
+		text-align: center;
+		overflow: hidden;
+		transition: .6s;
 	}
 
 }
