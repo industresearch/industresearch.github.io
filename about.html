@@ -525,7 +525,7 @@
 				<!-- Sidebar -->
 				<div class="col-xl-4 d-none d-xl-block sidebar">
 
-					<!-- Article -->
+					<!-- Admin Profile -->
 					<section class="tus-block py-2 mt-4 mb-2">
 						<div class="container">
 
@@ -549,7 +549,7 @@
 					</section>
 
 
-
+					<!-- Contents Tile -->
 					<section class="tus-block separation py-2 mt-4 mb-2">
 						<div class="container">
 
@@ -1097,23 +1097,6 @@
 		<script type="text/javascript" src="/js/jquery.js"></script>
 		<script type="text/javascript" src="/js/popper.js"></script>
 		<script type="text/javascript" src="/js/bootstrap.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				var data_ary;
-				$.ajax({
-					url: "/aaa.txt",
-					type: "get",
-					success: function(data){
-						data_ary = data.split("\n");
-					}
-				})
-
-				$("#read_txt").empty();
-				var totalNumber = totalNumber;
-				for(var i = 0; i < totalMumber; i++){
-					$("#read_text").append(data_ary[i]+""<br>"")
-				}
-		</script>
 
 	</body>
 
