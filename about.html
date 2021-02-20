@@ -389,7 +389,7 @@
 							<div class="row justify-content-center">
 								<div class="col-12">
 
-										<div id="read_text"></div>
+										<div><p id="read_txt" class="lead text-left"></p></div>
 
 										<p class="lead text-left">
 											<br>
@@ -1099,8 +1099,20 @@
 		<script type="text/javascript" src="/js/bootstrap.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				$("#read_text").load("aaa.txt")
-			});
+				var data_ary;
+				$.ajax({
+					url: "/aaa.txt",
+					type: "get",
+					success: function(data){
+						data_ary = data.split("\n");
+					}
+				})
+
+				$("#read_txt").empty();
+				var totalNumber = totalNumber;
+				for(var i = 0; i < totalMumber; i++){
+					$("#read_text").append(data_ary[i]+""<br>"")
+				}
 		</script>
 
 	</body>
