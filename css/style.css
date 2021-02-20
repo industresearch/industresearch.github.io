@@ -6834,6 +6834,11 @@ table td {
 	text-shadow: none;
 }
 
+.name {
+	color: #00BCD4;
+	text-shadow: 3px 3px #fff, 3px 3px rgba(0, 188, 212, 0.4);
+}
+
 @media (max-width: 575.98px) {
 
 	.navbar-expand-sm > .container, .navbar-expand-sm > .container-fluid {
