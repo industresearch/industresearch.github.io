@@ -66,7 +66,7 @@
 
 							<!-- Menu Icon -->
 							<label class="text-center" id="nav-open" for="nav-input">
-								<img src="/imgs/icons/setting.svg" width="30" height="30" alt="Menu">
+								<img src="/imgs/icon/menu.svg" width="30" height="30" alt="Menu">
 								<p>Menu</p>
 							</label>
 
@@ -98,34 +98,34 @@
 									<div class="card-group">
 										<div class="card">
 											<a href="/category/company_list.html">
-												<img class="card-img" src="/imgs/icons/company_list.svg" alt="company_list" width="30" height="30">
+												<img class="card-img" src="/imgs/icon/company_list.svg" alt="company_list" width="30" height="30">
 											</a>
 										</div>
 										<div class="card">
 											<a href="/category/industry.html">
-												<img class="card-img" src="/imgs/icons/industry.svg" alt="industry" width="30" height="30">
+												<img class="card-img" src="/imgs/icon/industry.svg" alt="industry" width="30" height="30">
 											</a>
 										</div>
 										<div class="card">
 											<a href="/category/country_region.html">
-												<img class="card-img" src="/imgs/icons/country_region.svg" alt="country_region" width="30" height="30">
+												<img class="card-img" src="/imgs/icon/country_region.svg" alt="country_region" width="30" height="30">
 											</a>
 										</div>
 									</div>
 									<div class="card-group">
 										<div class="card">
 											<a href="/category/group.html">
-												<img class="card-img" src="/imgs/icons/group.svg" alt="group" width="30" height="30">
+												<img class="card-img" src="/imgs/icon/group.svg" alt="group" width="30" height="30">
 											</a>
 										</div>
 										<div class="card">
 											<a href="/category/recruit_news.html">
-												<img class="card-img" src="/imgs/icons/recruit_news.svg" alt="recruit_news" width="30" height="30">
+												<img class="card-img" src="/imgs/icon/recruit_news.svg" alt="recruit_news" width="30" height="30">
 											</a>
 										</div>
 										<div class="card">
 											<a href="/category/tips.html">
-												<img class="card-img" src="/imgs/icons/tips.svg" alt="tips" width="30" height="30">
+												<img class="card-img" src="/imgs/icon/tips.svg" alt="tips" width="30" height="30">
 											</a>
 										</div>
 									</div>
@@ -381,15 +381,15 @@
 						<div class="container">
 							<div class="row justify-content-center">
 
-								<div class="col-6>
-									<img src="/imgs/icons/admin.svg" alt="admin" class="img-fluid">
+								<div class="col-4 col-lg-2 offset-4 offset-lg-5 my-2">
+									<img src="/imgs/icon/admin.svg" alt="admin" class="img-fluid">
 								</div>
 
 								<div class="col-12 text-center">
 									<div class="ribbon2">
 										<h3>サイト管理者 ： TUS</h3>
 									</div>
-									<div class="m-3">
+									<div class="my-3">
 										<p>プログラマーとして活動しながら、各業界の動向を毎日チェック。</p>
 									</div>
 								</div>
@@ -413,58 +413,35 @@
 					<section class="tus-block py-2 my-2">
 						<div class="container">
 
-							<div class="row">
-								<div class="col-12">
-									<div class="tus-box tus-touch">
+							<form action="//formspree.io/otayori.mattemasuyo@gmail.com" method="POST">
+								<div class="row tus-box tus-touch justify-content-center">
 
-										<div class="row text-center justify-content-center">
-
-											<div class="col-12 col-md-9 col-lg-7">
-												<h1>お問い合わせ</h1>
-												<p class="lead text-center">ご意見・ご要望はこちらまで</p>
-											</div>
-
-										</div>
-
-										<div class="row justify-content-center pt-4">
-											<div class="col-12 col-md-8">
-												<form action="//formspree.io/otayori.mattemasuyo@gmail.com" method="POST">
-
-													<div class="row">
-														<div class="col-12 col-md">
-															<input type="text" class="form-control" name="お名前" placeholder="お名前">
-														</div>
-
-														<div class="col-12 col-md mt-4 mt-md-0">
-															<input type="email" class="form-control" name="メールアドレス" placeholder="メールアドレス">
-														</div>
-													</div>
-
-													<div class="row mt-4">
-														<div class="col">
-															<input type="text" class="form-control" name="件名" placeholder="件名">
-														</div>
-													</div>
-
-													<div class="row mt-4">
-														<div class="col">
-															<textarea class="form-control" name="メッセージ" rows="3" placeholder="ご意見・ご要望など" required></textarea>
-														</div>
-													</div>
-
-													<div class="row mt-4">
-														<div class="col text-center">
-															<button type="submit" class="btn btn-primary">送信</button>
-														</div>
-													</div>
-
-												</form>
-											</div>
-										</div>
-
+									<div class="col-12 text-center">
+										<h1>お問い合わせ</h1>
+										<p>ご意見・ご要望はこちらまで</p>
 									</div>
+
+									<div class="row col-12">
+										<div class="col-12 col-md-6 my-2">
+											<input type="text" class="form-control" name="お名前" placeholder="お名前" required>
+										</div>
+										<div class="col-12 col-md-6 my-2">
+											<input type="email" class="form-control" name="メールアドレス" placeholder="メールアドレス">
+										</div>
+										<div class="col-12 my-2">
+											<input type="text" class="form-control" name="件名" placeholder="件名">
+										</div>
+										<div class="col-12 my-2 FlexTextarea">
+											<div class="FlexTextarea__dummy" aria-hidden="true"></div>
+											<textarea id="FlexTextarea" class="FlexTextarea__textarea form-control" name="メッセージ" rows="3" placeholder="ご意見・ご要望など" required></textarea>
+										</div>
+										<div class="col-12 my-2 text-center">
+											<button type="submit" class="btn btn-primary">送信</button>
+										</div>
+									</div>
+
 								</div>
-							</div>
+							</form>
 
 						</div>
 					</section>
@@ -1058,6 +1035,15 @@
 		<script type="text/javascript" src="/js/jquery.js"></script>
 		<script type="text/javascript" src="/js/popper.js"></script>
 		<script type="text/javascript" src="/js/bootstrap.js"></script>
+		<script type="text/javascript">
+			function flexTextarea(el) {
+				const dummy = el.querySelector('.FlexTextarea__dummy')
+				el.querySelector('.FlexTextarea__textarea').addEventListener('input', e => {
+					dummy.textContent = e.target.value + '\u200b'
+				})
+			}
+			document.querySelectorAll('.FlexTextarea').forEach(flexTextarea)
+		</script>
 
 	</body>
 
