@@ -6180,6 +6180,10 @@ a .text-dark:focus, a .text-dark:hover {
 	border-bottom: solid 3px #d7d7d7;
 }
 
+.caption3 {
+	background: linear-gradient(transparent 70%, #a7d6ff 70%);
+}
+
 .tips {
 	position: relative;
 	padding: 0.6em;

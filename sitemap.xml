@@ -206,6 +206,10 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://industresearch.github.io/country_region/dk.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://industresearch.github.io/country_region/es.html</loc>
   <priority>0.8</priority>
 </url>
@@ -282,25 +286,6 @@
 <url>
   <loc>https://industresearch.github.io/group/toyota_group.html</loc>
   <priority>0.8</priority>
-</url>
-
-<!-- Official -->
-<url>
-  <loc>https://industresearch.github.io/official/government_official/government_official.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/official/government_official/0_back_number.html</loc>
-  <priority>0.6</priority>
-</url>
-
-<url>
-  <loc>https://industresearch.github.io/official/local_official/local_official.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/official/local_official/0_back_number.html</loc>
-  <priority>0.6</priority>
 </url>
 
 
@@ -1616,6 +1601,24 @@
 </url>
 <url>
   <loc>https://industresearch.github.io/company/cemedine/0_history.html</loc>
+  <priority>0.6</priority>
+</url>
+
+<!-- chino -->
+<url>
+  <loc>https://industresearch.github.io/company/chino/chino.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://industresearch.github.io/company/chino/0_back_number.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://industresearch.github.io/company/chino/0_business_area.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://industresearch.github.io/company/chino/0_history.html</loc>
   <priority>0.6</priority>
 </url>
 
@@ -6263,24 +6266,6 @@
   <priority>0.6</priority>
 </url>
 
-<!-- li-ning -->
-<url>
-  <loc>https://industresearch.github.io/company/li-ning/li-ning.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/li-ning/0_back_number.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/li-ning/0_business_area.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/li-ning/0_history.html</loc>
-  <priority>0.6</priority>
-</url>
-
 <!-- line -->
 <url>
   <loc>https://industresearch.github.io/company/line/line.html</loc>
@@ -6296,6 +6281,24 @@
 </url>
 <url>
   <loc>https://industresearch.github.io/company/line/0_history.html</loc>
+  <priority>0.6</priority>
+</url>
+
+<!-- li-ning -->
+<url>
+  <loc>https://industresearch.github.io/company/li-ning/li-ning.html</loc>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://industresearch.github.io/company/li-ning/0_back_number.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://industresearch.github.io/company/li-ning/0_business_area.html</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://industresearch.github.io/company/li-ning/0_history.html</loc>
   <priority>0.6</priority>
 </url>
 
@@ -8027,24 +8030,6 @@
   <priority>0.6</priority>
 </url>
 
-<!-- nihon-trim -->
-<url>
-  <loc>https://industresearch.github.io/company/nihon-trim/nihon-trim.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/nihon-trim/0_back_number.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/nihon-trim/0_business_area.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/nihon-trim/0_history.html</loc>
-  <priority>0.6</priority>
-</url>
-
 <!-- nihon_kohden -->
 <url>
   <loc>https://industresearch.github.io/company/nihon-kohden/nihon_kohden.html</loc>
@@ -8150,24 +8135,6 @@
 </url>
 <url>
   <loc>https://industresearch.github.io/company/nintendo/0_history.html</loc>
-  <priority>0.6</priority>
-</url>
-
-<!-- nippon_signal -->
-<url>
-  <loc>https://industresearch.github.io/company/nippon_signal/nippon_signal.html</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/nippon_signal/0_back_number.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/nippon_signal/0_business_area.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://industresearch.github.io/company/nippon_signal/0_history.html</loc>
   <priority>0.6</priority>
 </url>
 

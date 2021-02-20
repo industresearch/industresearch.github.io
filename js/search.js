@@ -1,4 +1,3 @@
-
 $(function () {
 	searchWord = function(){
 		var searchResult,
