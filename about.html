@@ -389,8 +389,7 @@
 							<div class="row justify-content-center">
 								<div class="col-12">
 
-										<div><p id="read_txt" class="lead text-left"></p></div>
-
+										<pre class="signature"></pre>
 										<p class="lead text-left">
 											<br>
 											「業界研究大百科」にようこそ！
@@ -1097,6 +1096,28 @@
 		<script type="text/javascript" src="/js/jquery.js"></script>
 		<script type="text/javascript" src="/js/popper.js"></script>
 		<script type="text/javascript" src="/js/bootstrap.js"></script>
+
+		<script type="text/javascript">
+function writeSignature() {
+	var xhr = new XMLHttpRequest();
+	xhr.addEventListener("load", function(){
+		var e = document.getElementById("*");
+		for (var i = 0, j; j = e[i]; i++) {
+			if (j.className === "signature") {
+				j.innerHTML = xhr.responseText;
+			}
+		}
+	});
+	xhr.open("get", "/aaa.txt");
+	xhr.send();
+}
+
+function Init() {
+	writeSignature();
+}
+
+window.onload = Init;
+		</script>>
 
 	</body>
 
