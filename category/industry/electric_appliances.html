@@ -1,392 +1,323 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
+	<head>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133937032-3"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133937032-3"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-133937032-3');
+		</script>
 
-		gtag('config', 'UA-133937032-3');
-	</script>
+		<title>電気機器 - 業界研究大百科</title>
 
-	<title>電気機器 - 業界研究大百科</title>
+		<!-- Site Setting -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
 
-	<!-- Site Setting -->
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+		<!-- Site Information -->
+		<meta name="description" content="">
 
-	<!-- Site Information -->
-	<meta name="description" content="">
+		<!-- Load Stylesheets -->
+		<link type="text/css" rel="stylesheet" href="/css/style.css">
 
-	<!-- Load Stylesheets -->
-	<link type="text/css" rel="stylesheet" href="/css/style.css">
+		<!-- Fabicon -->
+		<link rel="icon" href="/imgs/logo.ico" >
 
-	<!-- Fabicon -->
-	<link rel="icon" href="/imgs/logo.ico" >
-
-</head>
-
+	</head>
 
 
-<body>
 
-	<!-- Header -->
-	<header class="bg-dark" id="navigator">
-		<div class="container">
-			<div class="row">
-				<nav class="navbar col-12">
+	<body>
 
-					<!-- Site Icon -->
-					<div class="col-3 text-left">
-						<button class="text-center" type="button">
+		<!-- Header -->
+		<header class="bg-dark" id="navigator">
+			<div class="container-fluid">
+				<div class="row">
+					<nav class="navbar col-12">
+
+						<!-- Home -->
+						<div class="col-3 d-xl-none text-left">
+							<button class="text-center" type="button">
+								<a href="/index.html">
+									<img src="/imgs/logo.svg" width="30" height="30" alt="Home">
+								</a>
+								<p>Home</p>
+							</button>
+						</div>
+
+						<!-- Title -->
+						<div class="col-6 col-xl-12 mb-3 mt-xl-2 align-self-center text-center">
 							<a href="/index.html">
-								<img src="/imgs/logo.svg" width="30" height="30" alt="siteicon">
+								<span class="title">業界研究大百科</span>
 							</a>
-							<p>Home</p>
-						</button>
-					</div>
+						</div>
 
-					<!-- Site Logo -->
-					<div class="col-6 text-center mb-4">
-						<a href="/index.html">
-							<span class="logo">業界研究大百科</span>
-						</a>
-					</div>
+						<!-- Menu -->
+						<div class="col-3 d-xl-none text-right" id="nav-drawer">
+							<input class="nav-unshown" id="nav-input" type="checkbox">
 
-					<!-- Menu Bar -->
-					<div class="col-3 text-right" id="nav-drawer">
-						<input class="nav-unshown" id="nav-input" type="checkbox">
+							<!-- Menu Icon -->
+							<label class="text-center" id="nav-open" for="nav-input">
+								<img src="/imgs/icon/menu.svg" width="30" height="30" alt="Menu">
+								<p>Menu</p>
+							</label>
 
-						<!-- Menu Icon -->
-						<label class="text-center" id="nav-open" for="nav-input">
-							<img src="/imgs/icon/menu.svg" width="30" height="30" alt="menuicon">
-							<p>Menu</p>
-						</label>
+							<label class="nav-unshown" id="nav-close" for="nav-input"></label>
 
-						<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+							<!-- Contents -->
+							<div class="bg-dark p-2" id="nav-content">
 
-						<!-- Contents -->
-						<div class="bg-dark p-3 mb-3" id="nav-content">
+								<!-- Main -->
+								<ul class="navbar-nav m-3 text-left">
+									<li class="nav-item">
+										<a class="nav-link" href="/index.html">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/main/about.html">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/main/contact.html">Contact</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="/main/privacy_policy.html">Privacy Policy</a>
+									</li>
+								</ul>
 
-							<!-- Menu -->
-							<ul class="navbar-nav ml-4 mr-auto text-left">
+								<!-- Utility -->
+								<div class="p-3">
+									<p class="text-center">Utility</p>
 
-								<li class="nav-item">
-									<a class="nav-link" href="/index.html">Home</a>
-								</li>
-
-								<li class="nav-item">
-									<a class="nav-link" href="/about.html">About</a>
-								</li>
-
-								<li class="nav-item">
-									<a class="nav-link" href="/contact.html">Contact</a>
-								</li>
-
-								<li class="nav-item">
-									<a class="nav-link" href="/privacy_policy.html">Privacy Policy</a>
-								</li>
-
-							</ul>
-
-							<!-- Utility Menu -->
-							<div class="p-3 mt-3">
-
-								<p class="text-center">Utility</p>
-
-								<div class="card-group">
-
-									<div class="card">
-										<a href="/category/company_list.html">
-											<img class="card-img" src="/imgs/icon/company_list.svg" alt="company_list" width="30" height="30">
-										</a>
+									<div class="card-group">
+										<div class="card">
+											<a href="/category/company_list.html">
+												<img class="card-img" src="/imgs/icon/company_list.svg" alt="company_list" width="30" height="30">
+											</a>
+										</div>
+										<div class="card">
+											<a href="/category/industry.html">
+												<img class="card-img" src="/imgs/icon/industry.svg" alt="industry" width="30" height="30">
+											</a>
+										</div>
+										<div class="card">
+											<a href="/category/country_region.html">
+												<img class="card-img" src="/imgs/icon/country_region.svg" alt="country_region" width="30" height="30">
+											</a>
+										</div>
 									</div>
-
-									<div class="card">
-										<a href="/category/industry.html">
-											<img class="card-img" src="/imgs/icon/industry.svg" alt="industry" width="30" height="30">
-										</a>
-									</div>
-
-									<div class="card">
-										<a href="/category/country_region.html">
-											<img class="card-img" src="/imgs/icon/country_region.svg" alt="country_region" width="30" height="30">
-										</a>
-									</div>
-
-									<div class="card">
-										<a href="/category/group.html">
-											<img class="card-img" src="/imgs/icon/group.svg" alt="group" width="30" height="30">
-										</a>
-									</div>
-
-									<div class="card">
-										<a href="/category/recruit_news.html">
-											<img class="card-img" src="/imgs/icon/recruit_news.svg" alt="recruit_news" width="30" height="30">
-										</a>
-									</div>
-
-									<div class="card">
-										<a href="/category/tips.html">
-											<img class="card-img" src="/imgs/icon/tips.svg" alt="tips" width="30" height="30">
-										</a>
+									<div class="card-group">
+										<div class="card">
+											<a href="/category/group.html">
+												<img class="card-img" src="/imgs/icon/group.svg" alt="group" width="30" height="30">
+											</a>
+										</div>
+										<div class="card">
+											<a href="/category/recruit_news.html">
+												<img class="card-img" src="/imgs/icon/recruit_news.svg" alt="recruit_news" width="30" height="30">
+											</a>
+										</div>
+										<div class="card">
+											<a href="/category/tips.html">
+												<img class="card-img" src="/imgs/icon/tips.svg" alt="tips" width="30" height="30">
+											</a>
+										</div>
 									</div>
 
 								</div>
 
-							</div>
-
-							<!-- Industry Selection Menu -->
-							<div class="p-3">
-
-								<p class="text-center">Industries</p>
-
-								<div class="card-group">
+								<!-- Industry -->
+								<div class="p-3">
+									<p class="text-center">Industry</p>
 
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/fishery_agriculture_forestry.html">
 												<img class="card-img card-fishery_agriculture_forestry" src="/imgs/industry/fishery_agriculture_forestry.svg" alt="水産・農林業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/mining.html">
 												<img class="card-img card-mining" src="/imgs/industry/mining.svg" alt="鉱業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/construction.html">
 												<img class="card-img card-construction" src="/imgs/industry/construction.svg" alt="建設業" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/foods.html">
 												<img class="card-img card-foods" src="/imgs/industry/foods.svg" alt="食料品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/textile_apparels.html">
 												<img class="card-img card-textile_apparels" src="/imgs/industry/textile_apparels.svg" alt="繊維製品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/pulp_paper.html">
 												<img class="card-img card-pulp_paper" src="/imgs/industry/pulp_paper.svg" alt="パルプ・紙" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/chemicals.html">
 												<img class="card-img card-chemicals" src="/imgs/industry/chemicals.svg" alt="化学" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/pharmaceutical.html">
 												<img class="card-img card-pharmaceutical" src="/imgs/industry/pharmaceutical.svg" alt="医薬品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/oil_coal_products.html">
 												<img class="card-img card-oil_coal_products" src="/imgs/industry/oil_coal_products.svg" alt="石油・石炭製品" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/rubber_products.html">
 												<img class="card-img card-rubber_products" src="/imgs/industry/rubber_products.svg" alt="ゴム製品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/glass_ceramics_products.html">
 												<img class="card-img card-glass_ceramics_products" src="/imgs/industry/glass_ceramics_products.svg" alt="ガラス・セラミック製品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/iron_steel.html">
 												<img class="card-img card-iron_steel" src="/imgs/industry/iron_steel.svg" alt="鉄鋼" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/nonferrous_metals.html">
 												<img class="card-img card-nonferrous_metals" src="/imgs/industry/nonferrous_metals.svg" alt="非鉄金属" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/metal_products.html">
 												<img class="card-img card-metal_products" src="/imgs/industry/metal_products.svg" alt="金属製品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/machinery.html">
 												<img class="card-img card-machinery" src="/imgs/industry/machinery.svg" alt="機械" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/electric_appliances.html">
 												<img class="card-img card-active" src="/imgs/industry/electric_appliances.svg" alt="電気機器" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/transportation_equipment.html">
 												<img class="card-img card-transportation_equipment" src="/imgs/industry/transportation_equipment.svg" alt="輸送用機器" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/precision_instrument.html">
 												<img class="card-img card-precision_instrument" src="/imgs/industry/precision_instrument.svg" alt="精密機器" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/other_products.html">
 												<img class="card-img card-other_products" src="/imgs/industry/other_products.svg" alt="その他製品" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/electric_power_gas.html">
 												<img class="card-img card-electric_power_gas" src="/imgs/industry/electric_power_gas.svg" alt="電気・ガス業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/land_transportation.html">
 												<img class="card-img card-land_transportation" src="/imgs/industry/land_transportation.svg" alt="陸運業" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/marine_transportation.html">
 												<img class="card-img card-marine_transportation" src="/imgs/industry/marine_transportation.svg" alt="海運業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/air_transportation.html">
 												<img class="card-img card-air_transportation" src="/imgs/industry/air_transportation.svg" alt="空運業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/warehousing_harbor_transportation.html">
 												<img class="card-img card-warehousing_harbor_transportation" src="/imgs/industry/warehousing_harbor_transportation.svg" alt="倉庫・運輸関連業" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/information_communication.html">
 												<img class="card-img card-information_communication" src="/imgs/industry/information_communication.svg" alt="情報・通信業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/wholesale_trade.html">
 												<img class="card-img card-wholesale_trade" src="/imgs/industry/wholesale_trade.svg" alt="卸売業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/retail_trade.html">
 												<img class="card-img card-retail_trade" src="/imgs/industry/retail_trade.svg" alt="小売業" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/banks.html">
 												<img class="card-img card-banks" src="/imgs/industry/banks.svg" alt="銀行業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/securities_commodities_futures.html">
 												<img class="card-img card-securities_commodities_futures" src="/imgs/industry/securities_commodities_futures.svg" alt="証券・商品先物取引業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/insurance.html">
 												<img class="card-img card-insurance" src="/imgs/industry/insurance.svg" alt="保険業" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
-
 									<div class="card-group">
-
 										<div class="card">
 											<a href="/category/industry/other_financing_business.html">
 												<img class="card-img card-other_financing_business" src="/imgs/industry/other_financing_business.svg" alt="その他金融業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/real_estate.html">
 												<img class="card-img card-real_estate" src="/imgs/industry/real_estate.svg" alt="不動産業" width="30" height="30">
 											</a>
 										</div>
-
 										<div class="card">
 											<a href="/category/industry/services.html">
 												<img class="card-img card-services" src="/imgs/industry/services.svg" alt="サービス業" width="30" height="30">
 											</a>
 										</div>
-
 									</div>
 
 								</div>
@@ -395,2513 +326,726 @@
 
 						</div>
 
-					</div>
-
-				</nav>
-			</div>
-		</div>
-	</header>
-
-
-
-	<!-- Company -->
-	<section class="tus-block">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-
-				<div class="col-12 col-md-10 col-lg-8 text-center my-3">
-					<img src="/imgs/industry/electric_appliances.svg" alt="electric_appliances" class="img-fluid" width="100" height="100">
+					</nav>
 				</div>
-
-				<div class="col-12 col-md-10 col-lg-8 text-center">
-					<h2 class="ribbon"><strong>電気機器</strong></h2>
-				</div>
-
 			</div>
-		</div>
-	</section>
+		</header>
 
 
 
-	<!-- Breadcrumb -->
-	<section class="tus-block">
-		<div class="container">
-			<ul class="breadcrumb">
-
-				<li itemscope="itemscope" itemtype="https://schema.org/ListItem">
-					<a href="/index.html" itemprop="url">
-						<span itemprop="title">Home</span>
-					</a>
-				</li>
-
-				<li itemscope="itemscope" itemtype="https://schema.org/ListItem">
-					<a href="/category/industry.html" itemprop="url">
-						<span itemprop="title">産業別企業一覧</span>
-					</a>
-				</li>
-
-				<li itemscope="itemscope" itemtype="https://schema.org/ListItem">
-					<a href="/category/industry/electric_appliances.html" itemprop="url">
-						<span itemprop="title">電気機器</span>
-					</a>
-				</li>
-
-			</ul>
-		</div>
-	</section>
-
-
-
-	<!-- AdMax(業界研究大百科) -->
-	<div class="text-center">
-		<script src="https://adm.shinobi.jp/o/fc6e5dbaed0774622e44a5b9473a322a"></script>
-	</div>
-
-
-
-	<!-- Article -->
-	<section class="tus-block">
-		<div class="container">
+		<!-- Entire -->
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col text-left">
 
-					<div class="caption2">
-						<h3>電気機器業界</h3>
-					</div>
+				<!-- Main Contents-->
+				<div class="col-12 col-xl-8">
 
-					<p class="lead">
-						<br>
-						...
-					</p>
+					<!-- Industry Name -->
+					<section class="tus-block py-2 my-2">
+						<div class="container">
+							<div class="row justify-content-center">
+
+								<div class="col-12 col-md-8 offset-md-2 text-center">
+									<img src="/imgs/industry/electric_appliances.svg" alt="electric_appliances" height="100">
+								</div>
+
+								<div class="col-12 col-md-10 text-center">
+									<h2 class="ribbon"><strong>電気機器</strong></h2>
+								</div>
+
+							</div>
+						</div>
+					</section>
+
+
+
+					<!-- Breadcrumb -->
+					<section class="tus-block py-2 my-2">
+						<div class="container">
+							<ul class="breadcrumb">
+
+								<li itemscope="itemscope" itemtype="https://schema.org/ListItem">
+									<a href="/index.html" itemprop="url">
+										<span itemprop="title">Home</span>
+									</a>
+								</li>
+
+								<li itemscope="itemscope" itemtype="https://schema.org/ListItem">
+									<a href="/category/industry.html" itemprop="url">
+										<span itemprop="title">産業別企業一覧</span>
+									</a>
+								</li>
+
+								<li itemscope="itemscope" itemtype="https://schema.org/ListItem">
+									<a href="/category/industry/electric_appliances.html" itemprop="url">
+										<span itemprop="title">電気機器</span>
+									</a>
+								</li>
+
+							</ul>
+						</div>
+					</section>
+
+
+
+					<!-- Ad -->
+					<section class="tus-block py-2 my-2">
+						<div class="text-center">
+							<script src="https://adm.shinobi.jp/o/fc6e5dbaed0774622e44a5b9473a322a"></script>
+						</div>
+					</section>
+
+
+
+					<!-- Main Text -->
+					<section class="tus-block py-2 my-2">
+						<div class="container">
+							<div class="row">
+								<div class="col-12">
+
+									<h2 class="caption3 my-2">電気機器業界</h2>
+
+									<p class="my-3 my-lg-2">
+										...
+									</p>
+
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+					<!-- Ad -->
+					<section class="tus-block py-2 my-2">
+						<div class="text-center">
+							<script src="https://adm.shinobi.jp/o/fc6e5dbaed0774622e44a5b9473a322a"></script>
+						</div>
+					</section>
+
+
+
+					<!-- Company in Industry -->
+					<section class="tus-block py-2 my-2">
+						<div class="container">
+							<div class="row justify-content-start">
+
+								<article class="col-12 col-sm-6 col-lg-3 my-1 my-sm-2 my-lg-3 rounded">
+									<a href="/company//.html">
+										<div class="row">
+											<div class="col-4 col-lg-12 p-2">
+												<img class="img-thumbnail" src="/imgs/company/.jpg">
+											</div>
+											<div class="col-8 col-lg-12 px-4 py-2 text-left">
+												<h2>...</h2>
+												<p>...</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+							</div>
+						</div>
+					</section>
+
+
+
+					<!-- Ad -->
+					<section class="tus-block py-2 my-2">
+						<div class="text-center">
+							<script src="https://adm.shinobi.jp/o/fc6e5dbaed0774622e44a5b9473a322a"></script>
+						</div>
+					</section>
 
 				</div>
+
+
+
+				<!-- Sidebar -->
+				<div class="col-xl-4 d-none d-xl-block sidebar">
+
+					<!-- Admin Profile -->
+					<section class="tus-block py-2 mt-4 mb-2">
+						<div class="container">
+
+							<div class="row">
+								<div class="col-12">
+									<h2 class="caption2 text-left">管理者プロフィール</h2>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-4 p-4 text-center">
+									<img class="img-fluid" src="/imgs/icon/admin.svg" alt="admin">
+									<p class="">TUS</p>
+								</div>
+								<div class="col-8 align-self-center">
+								<p>プログラマーとして活動しながら、各業界の動向を毎日チェック。</p>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+
+
+					<!-- Contents Tile -->
+					<section class="tus-block separation py-2 mt-4 mb-2">
+						<div class="container">
+
+							<div class="row">
+								<div class="col-12">
+									<h2 class="caption2 text-left">コンテンツ</h2>
+								</div>
+							</div>
+
+							<!-- Utility -->
+							<div class="row">
+								<div class="col-8 offset-2 mt-4 text-center">
+									<p class="ribbon_sub">Utility</p>
+								</div>
+							</div>
+
+							<div class="row pt-1 pb-3">
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/company_list.html">
+											<img class="card-img" src="/imgs/icon/company_list.svg" alt="company_list" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry.html">
+											<img class="card-img" src="/imgs/icon/industry.svg" alt="industry" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/country_region.html">
+											<img class="card-img" src="/imgs/icon/country_region.svg" alt="country_region" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/group.html">
+											<img class="card-img" src="/imgs/icon/group.svg" alt="group" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/recruit_news.html">
+											<img class="card-img" src="/imgs/icon/recruit_news.svg" alt="recruit_news" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/tips.html">
+											<img class="card-img" src="/imgs/icon/tips.svg" alt="tips" width="30" height="30">
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- Industry -->
+							<div class="row">
+								<div class="col-8 offset-2 mt-4 text-center">
+									<p class="ribbon_sub">Industry</p>
+								</div>
+							</div>
+
+							<div class="row pt-1 pb-3">
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/fishery_agriculture_forestry.html">
+											<img class="card-img card-fishery_agriculture_forestry" src="/imgs/industry/fishery_agriculture_forestry.svg" alt="水産・農林業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/mining.html">
+											<img class="card-img card-mining" src="/imgs/industry/mining.svg" alt="鉱業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/construction.html">
+											<img class="card-img card-construction" src="/imgs/industry/construction.svg" alt="建設業" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/foods.html">
+											<img class="card-img card-foods" src="/imgs/industry/foods.svg" alt="食料品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/textile_apparels.html">
+											<img class="card-img card-textile_apparels" src="/imgs/industry/textile_apparels.svg" alt="繊維製品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/pulp_paper.html">
+											<img class="card-img card-pulp_paper" src="/imgs/industry/pulp_paper.svg" alt="パルプ・紙" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/chemicals.html">
+											<img class="card-img card-chemicals" src="/imgs/industry/chemicals.svg" alt="化学" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/pharmaceutical.html">
+											<img class="card-img card-pharmaceutical" src="/imgs/industry/pharmaceutical.svg" alt="医薬品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/oil_coal_products.html">
+											<img class="card-img card-oil_coal_products" src="/imgs/industry/oil_coal_products.svg" alt="石油・石炭製品" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/rubber_products.html">
+											<img class="card-img card-rubber_products" src="/imgs/industry/rubber_products.svg" alt="ゴム製品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/glass_ceramics_products.html">
+											<img class="card-img card-glass_ceramics_products" src="/imgs/industry/glass_ceramics_products.svg" alt="ガラス・セラミック製品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/iron_steel.html">
+											<img class="card-img card-iron_steel" src="/imgs/industry/iron_steel.svg" alt="鉄鋼" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/nonferrous_metals.html">
+											<img class="card-img card-nonferrous_metals" src="/imgs/industry/nonferrous_metals.svg" alt="非鉄金属" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/metal_products.html">
+											<img class="card-img card-metal_products" src="/imgs/industry/metal_products.svg" alt="金属製品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/machinery.html">
+											<img class="card-img card-machinery" src="/imgs/industry/machinery.svg" alt="機械" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/electric_appliances.html">
+											<img class="card-img card-electric_appliances" src="/imgs/industry/electric_appliances.svg" alt="電気機器" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/transportation_equipment.html">
+											<img class="card-img card-transportation_equipment" src="/imgs/industry/transportation_equipment.svg" alt="輸送用機器" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/precision_instrument.html">
+											<img class="card-img card-precision_instrument" src="/imgs/industry/precision_instrument.svg" alt="精密機器" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/other_products.html">
+											<img class="card-img card-other_products" src="/imgs/industry/other_products.svg" alt="その他製品" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/electric_power_gas.html">
+											<img class="card-img card-electric_power_gas" src="/imgs/industry/electric_power_gas.svg" alt="電気・ガス業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/land_transportation.html">
+											<img class="card-img card-land_transportation" src="/imgs/industry/land_transportation.svg" alt="陸運業" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/marine_transportation.html">
+											<img class="card-img card-marine_transportation" src="/imgs/industry/marine_transportation.svg" alt="海運業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/air_transportation.html">
+											<img class="card-img card-air_transportation" src="/imgs/industry/air_transportation.svg" alt="空運業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/warehousing_harbor_transportation.html">
+											<img class="card-img card-warehousing_harbor_transportation" src="/imgs/industry/warehousing_harbor_transportation.svg" alt="倉庫・運輸関連業" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/information_communication.html">
+											<img class="card-img card-information_communication" src="/imgs/industry/information_communication.svg" alt="情報・通信業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/wholesale_trade.html">
+											<img class="card-img card-wholesale_trade" src="/imgs/industry/wholesale_trade.svg" alt="卸売業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/retail_trade.html">
+											<img class="card-img card-retail_trade" src="/imgs/industry/retail_trade.svg" alt="小売業" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/banks.html">
+											<img class="card-img card-banks" src="/imgs/industry/banks.svg" alt="銀行業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/securities_commodities_futures.html">
+											<img class="card-img card-securities_commodities_futures" src="/imgs/industry/securities_commodities_futures.svg" alt="証券・商品先物取引業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/insurance.html">
+											<img class="card-img card-insurance" src="/imgs/industry/insurance.svg" alt="保険業" width="30" height="30">
+										</a>
+									</div>
+								</div>
+								<div class="col-12 card-group">
+									<div class="card">
+										<a href="/category/industry/other_financing_business.html">
+											<img class="card-img card-other_financing_business" src="/imgs/industry/other_financing_business.svg" alt="その他金融業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/real_estate.html">
+											<img class="card-img card-real_estate" src="/imgs/industry/real_estate.svg" alt="不動産業" width="30" height="30">
+										</a>
+									</div>
+									<div class="card">
+										<a href="/category/industry/services.html">
+											<img class="card-img card-services" src="/imgs/industry/services.svg" alt="サービス業" width="30" height="30">
+										</a>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</section>
+
+
+
+					<!-- News Tile -->
+					<section class="tus-block separation py-5 mt-4 mb-2">
+						<div class="container">
+
+							<div class="row">
+								<div class="col-12">
+									<h2 class="caption2 text-left">新着ニュース</h2>
+								</div>
+							</div>
+
+							<!-- Recruit News -->
+							<div class="row">
+								<div class="col-8 offset-2 mt-4 text-center">
+									<p class="ribbon_sub">Recruit News</p>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/category/recruit_news/2019_08_01_0.html">
+										<span class="box-title">2019/08/01</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-3 p-2">
+												<img class="img-thumbnail" src="/imgs/icon/recruit_news.svg">
+											</div>
+											<div class="col-7 offset-r-1 px-4 py-2 text-left">
+												<p>まさかの裏切り、就活支援サイトで「学生辞退予測」販売</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/category/recruit_news/2019_06_15_0.html">
+										<span class="box-title">2019/06/15</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-3 p-2">
+												<img class="img-thumbnail" src="/imgs/icon/recruit_news.svg">
+											</div>
+											<div class="col-7 offset-r-1 px-4 py-2 text-left">
+												<p>既に内定6割、止まらぬ就活早期化</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/category/recruit_news/2019_06_01_0.html">
+										<span class="box-title">2019/06/01</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-3 p-2">
+												<img class="img-thumbnail" src="/imgs/icon/recruit_news.svg">
+											</div>
+											<div class="col-7 offset-r-1 px-4 py-2 text-left">
+												<p>進む就活ルール形骸化、解禁日でも内定5割越え</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+							</div>
+
+							<!-- Company News -->
+							<div class="row">
+								<div class="col-8 offset-2 mt-4 text-center">
+									<p class="ribbon_sub">Company News</p>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+								<article class="col-12 my-3 news_box rounded">
+									<a href="/company/agc/news/0000_00_00_0.html">
+										<span class="box-title">2021/00/00</span>
+
+										<div class="row">
+											<div class="offset-l-1 col-5 offset-6 px-2">
+												<img class="img-thumbnail" src="/imgs/company/agc.jpg">
+											</div>
+											<div class="col-10 offset-1 px-4 py-2 text-left">
+											<p><span class="name">AGC</span>、戦略事業へ積極投資<br>ー 半導体向け材料 ー</p>
+											</div>
+										</div>
+									</a>
+								</article>
+
+							</div>
+
+						</div>
+					</section>
+
+				</div>
+
 			</div>
 		</div>
-	</section>
 
 
 
-	<!-- Article -->
-	<section class="tus-block">
-		<div class="container">
-			<div class="row">
-				<div class="col text-left">
+		<!-- Footer -->
+		<footer class="bg-dark">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12 text-center">
 
-					<div class="caption2">
-						<h3>業界大手</h3>
-					</div>
-
-					<p class="lead">
-						<br>
-						重電8社
-					</p>
-
-					<div class="company_box rounded">
-						<p>
-							・<a href="/company/daihen/daihen.html">株式会社ダイヘン</a>
-							<br>
-							・<a href="/company/toko_takaoka/toko_takaoka.html">株式会社東光高岳</a>
-							<br>
-							・<a href="/company/toshiba/toshiba.html">株式会社東芝</a>
-							<br>
-							・<a href="/company/nissin_electric/nissin_electric.html">日新電機株式会社</a>
-							<br>
-							・<a href="/company/hitachi/hitachi.html">株式会社日立製作所</a>
-							<br>
-							・<a href="/company/mitsubishi_electric/mitsubishi_electric.html">三菱電機株式会社</a>
-							<br>
-							・<a href="/company/meidensha/meidensha.html">株式会社明電舎</a>
+						<p class="my-2">
+							<a class="mx-2 mx-lg-4" href="/index.html">Home</a>
+							<a class="mx-2 mx-lg-4" href="/main/about.html">About</a>
+							<a class="mx-2 mx-lg-4" href="/main/contact.html">Contact</a>
+							<a class="mx-2 mx-lg-4" href="/main/privacy_policy.html">Privacy Policy</a>
 						</p>
+
+						<h6 class="mt-4 mb-2">© 2018-2021 業界研究大百科</h6>
+
 					</div>
-
 				</div>
 			</div>
-		</div>
-	</section>
+		</footer>
 
 
 
-	<!-- AdMax(業界研究大百科) -->
-	<div class="text-center">
-		<script src="https://adm.shinobi.jp/o/fc6e5dbaed0774622e44a5b9473a322a"></script>
-	</div>
+		<!-- Paga Top Button -->
+		<p id="pagetopbtn"><a href="#">▲ Page Top</a></p>
 
 
 
-	<!-- Industry -->
-	<section class="tus-block py-2 my-2">
-		<div class="container">
+		<!--Load Script-->
+		<script type="text/javascript" src="/js/jquery.js"></script>
+		<script type="text/javascript" src="/js/popper.js"></script>
+		<script type="text/javascript" src="/js/bootstrap.js"></script>
 
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/aoc/aoc.html">
-						<img class="img-thumbnail" src="/imgs/company/aoc.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/aoc/aoc.html">
-						<h4>AOC International</h4>
-						<p>AOC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/asus/asus.html">
-						<img class="img-thumbnail" src="/imgs/company/asus.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/asus/asus.html">
-						<h4>ASUS</h4>
-						<p>ASUS, エイスース</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/auo/auo.html">
-						<img class="img-thumbnail" src="/imgs/company/auo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/auo/auo.html">
-						<h4>AU Optronics</h4>
-						<p>AUO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/benq/benq.html">
-						<img class="img-thumbnail" src="/imgs/company/benq.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/benq/benq.html">
-						<h4>BenQ</h4>
-						<p>ベンキュー</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/boe/boe.html">
-						<img class="img-thumbnail" src="/imgs/company/boe.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/boe/boe.html">
-						<h4>BOE Technology Group</h4>
-						<p>BOE</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/bose/bose.html">
-						<img class="img-thumbnail" src="/imgs/company/bose.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/bose/bose.html">
-						<h4>Bose</h4>
-						<p>BOSE, ボーズ</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/catl/catl.html">
-						<img class="img-thumbnail" src="/imgs/company/catl.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/catl/catl.html">
-						<h4>CATL</h4>
-						<p>CATL</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/chuwi/chuwi.html">
-						<img class="img-thumbnail" src="/imgs/company/chuwi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/chuwi/chuwi.html">
-						<h4>CHUWI</h4>
-						<p>CHUWI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/dx_antenna/dx_antenna.html">
-						<img class="img-thumbnail" src="/imgs/company/dx_antenna.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/dx_antenna/dx_antenna.html">
-						<h4>DXアンテナ</h4>
-						<p>DX ANTENNA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/eizo/eizo.html">
-						<img class="img-thumbnail" src="/imgs/company/eizo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/eizo/eizo.html">
-						<h4>EIZO</h4>
-						<p>エイゾー, エイゾ</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/ge/ge.html">
-						<img class="img-thumbnail" src="/imgs/company/ge.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/ge/ge.html">
-						<h4>General Electric</h4>
-						<p>GE, ゼネラル・エレクトリック</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/gs_yuasa/gs_yuasa.html">
-						<img class="img-thumbnail" src="/imgs/company/gs_yuasa.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/gs_yuasa/gs_yuasa.html">
-						<h4>GSユアサ</h4>
-						<p>GSユアサ</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/haier/haier.html">
-						<img class="img-thumbnail" src="/imgs/company/haier.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/haier/haier.html">
-						<h4>Haier</h4>
-						<p>ハイアール</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/huawei/huawei.html">
-						<img class="img-thumbnail" src="/imgs/company/huawei.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/huawei/huawei.html">
-						<h4>Huawei</h4>
-						<p>華為, ファーウェイ, Huawei</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/innolux/innolux.html">
-						<img class="img-thumbnail" src="/imgs/company/innolux.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/innolux/innolux.html">
-						<h4>Innolux</h4>
-						<p>群創光電, イノラックス, INNOLUX</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/joled/joled.html">
-						<img class="img-thumbnail" src="/imgs/company/joled.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/joled/joled.html">
-						<h4>JOLED</h4>
-						<p>JOLED</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/jvc_kenwood/jvc_kenwood.html">
-						<img class="img-thumbnail" src="/imgs/company/jvc_kenwood.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/jvc_kenwood/jvc_kenwood.html">
-						<h4>JVCケンウッド</h4>
-						<p>JVC KENWOOD</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/koa/koa.html">
-						<img class="img-thumbnail" src="/imgs/company/koa.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/koa/koa.html">
-						<h4>KOA</h4>
-						<p>KOA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/kuka/kuka.html">
-						<img class="img-thumbnail" src="/imgs/company/kuka.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/kuka/kuka.html">
-						<h4>KUKA</h4>
-						<p>クーカ</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/lenovo/lenovo.html">
-						<img class="img-thumbnail" src="/imgs/company/lenovo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/lenovo/lenovo.html">
-						<h4>Lenovo</h4>
-						<p>レノボ</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/lg_electronics/lg_electronics.html">
-						<img class="img-thumbnail" src="/imgs/company/lg_electronics.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/lg_electronics/lg_electronics.html">
-						<h4>LG Electronics</h4>
-						<p>LG Electronics</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/midea/midea.html">
-						<img class="img-thumbnail" src="/imgs/company/midea.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/midea/midea.html">
-						<h4>Midea</h4>
-						<p>マイディア</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nortel_networks/nortel_networks.html">
-						<img class="img-thumbnail" src="/imgs/company/nortel_networks.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nortel_networks/nortel_networks.html">
-						<h4>Nortel Networks</h4>
-						<p>NORTEL, ノーテル</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/obara_group/obara_group.html">
-						<img class="img-thumbnail" src="/imgs/company/obara_group.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/obara_group/obara_group.html">
-						<h4>OBARA GROUP</h4>
-						<p>OBARA GROUP</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/philips/philips.html">
-						<img class="img-thumbnail" src="/imgs/company/philips.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/philips/philips.html">
-						<h4>Philips</h4>
-						<p>PHILIPS, フィリップス</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/samsung_electronics/samsung_electronics.html">
-						<img class="img-thumbnail" src="/imgs/company/samsung_electronics.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/samsung_electronics/samsung_electronics.html">
-						<h4>Samsung Electronics</h4>
-						<p>三星電子, サムスン, SAMSUNG</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sennheiser/sennheiser.html">
-						<img class="img-thumbnail" src="/imgs/company/sennheiser.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sennheiser/sennheiser.html">
-						<h4>Sennheiser</h4>
-						<p>SENNHEISER, ゼンハイザー</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/siemens/siemens.html">
-						<img class="img-thumbnail" src="/imgs/company/siemens.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/siemens/siemens.html">
-						<h4>Siemens</h4>
-						<p>SIEMENS, シーメンス</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/tdk/tdk.html">
-						<img class="img-thumbnail" src="/imgs/company/tdk.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/tdk/tdk.html">
-						<h4>TDK</h4>
-						<p>TDK</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/toa/toa.html">
-						<img class="img-thumbnail" src="/imgs/company/toa.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/toa/toa.html">
-						<h4>TOA</h4>
-						<p>TOA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/viewsonic/viewsonic.html">
-						<img class="img-thumbnail" src="/imgs/company/viewsonic.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/viewsonic/viewsonic.html">
-						<h4>ViewSonic</h4>
-						<p>ビューソニック</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/xerox/xerox.html">
-						<img class="img-thumbnail" src="/imgs/company/xerox.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/xerox/xerox.html">
-						<h4>Xerox</h4>
-						<p>xerox, ゼロックス</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/icom/icom.html">
-						<img class="img-thumbnail" src="/imgs/company/icom.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/icom/icom.html">
-						<h4>アイコム</h4>
-						<p>iCOM</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/aiphone/aiphone.html">
-						<img class="img-thumbnail" src="/imgs/company/aiphone.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/aiphone/aiphone.html">
-						<h4>アイホン</h4>
-						<p>アイホン</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/advantest/advantest.html">
-						<img class="img-thumbnail" src="/imgs/company/advantest.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/advantest/advantest.html">
-						<h4>アドバンテスト</h4>
-						<p>ADVANTEST</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/alps_alpine/alps_alpine.html">
-						<img class="img-thumbnail" src="/imgs/company/alps_alpine.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/alps_alpine/alps_alpine.html">
-						<h4>アルプスアルパイン</h4>
-						<p>ALPSALPINE</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/ikegami_tsushinki/ikegami_tsushinki.html">
-						<img class="img-thumbnail" src="/imgs/company/ikegami_tsushinki.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/ikegami_tsushinki/ikegami_tsushinki.html">
-						<h4>池上通信機</h4>
-						<p>Ikegami</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/ichikoh/ichikoh.html">
-						<img class="img-thumbnail" src="/imgs/company/ichikoh.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/ichikoh/ichikoh.html">
-						<h4>市光工業</h4>
-						<p>市光, ICHIKOH</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/ibiden/ibiden.html">
-						<img class="img-thumbnail" src="/imgs/company/ibiden.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/ibiden/ibiden.html">
-						<h4>イビデン</h4>
-						<p>IBIDEN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/iwatsu/iwatsu.html">
-						<img class="img-thumbnail" src="/imgs/company/iwatsu.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/iwatsu/iwatsu.html">
-						<h4>岩崎通信機</h4>
-						<p>岩通, IWATSU</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/iwasaki_electric/iwasaki_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/iwasaki_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/iwasaki_electric/iwasaki_electric.html">
-						<h4>岩崎電気</h4>
-						<p>IWASAKI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/endo_lighting/endo_lighting.html">
-						<img class="img-thumbnail" src="/imgs/company/endo_lighting.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/endo_lighting/endo_lighting.html">
-						<h4>遠藤照明</h4>
-						<p>ENDO, ENDO LIGHTING CORP.</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/enplas/enplas.html">
-						<img class="img-thumbnail" src="/imgs/company/enplas.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/enplas/enplas.html">
-						<h4>エンプラス</h4>
-						<p>enplas</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/osaka_siren/osaka_siren.html">
-						<img class="img-thumbnail" src="/imgs/company/osaka_siren.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/osaka_siren/osaka_siren.html">
-						<h4>大阪サイレン製作所</h4>
-						<p>大阪サイレン, OSAKA SIREN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/osaki_electric/osaki_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/osaki_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/osaki_electric/osaki_electric.html">
-						<h4>大崎電気工業</h4>
-						<p>大崎電気, OSAKI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/oki_electric/oki_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/oki_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/oki_electric/oki_electric.html">
-						<h4>沖電気工業</h4>
-						<p>沖電気, OKI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/origin/origin.html">
-						<img class="img-thumbnail" src="/imgs/company/origin.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/origin/origin.html">
-						<h4>オリジン</h4>
-						<p>Origin</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/onkyo/onkyo.html">
-						<img class="img-thumbnail" src="/imgs/company/onkyo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/onkyo/onkyo.html">
-						<h4>オンキヨー</h4>
-						<p>ONKYO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/casio/casio.html">
-						<img class="img-thumbnail" src="/imgs/company/casio.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/casio/casio.html">
-						<h4>カシオ計算機</h4>
-						<p>カシオ, CASIO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/canon/canon.html">
-						<img class="img-thumbnail" src="/imgs/company/canon.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/canon/canon.html">
-						<h4>キヤノン</h4>
-						<p>Canon</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/canon_electronics/canon_electronics.html">
-						<img class="img-thumbnail" src="/imgs/company/canon_electronics.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/canon_electronics/canon_electronics.html">
-						<h4>キヤノン電子</h4>
-						<p>キヤノン電子</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/kyosan_electric/kyosan_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/kyosan_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/kyosan_electric/kyosan_electric.html">
-						<h4>京三製作所</h4>
-						<p>KYOSAN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/kyocera/kyocera.html">
-						<img class="img-thumbnail" src="/imgs/company/kyocera.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/kyocera/kyocera.html">
-						<h4>京セラ</h4>
-						<p>KYOCERA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/kyowa-ei/kyowa-ei.html">
-						<img class="img-thumbnail" src="/imgs/company/kyowa-ei.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/kyowa-ei/kyowa-ei.html">
-						<h4>共和電業</h4>
-						<p>KYOWA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/clarion/clarion.html">
-						<img class="img-thumbnail" src="/imgs/company/clarion.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/clarion/clarion.html">
-						<h4>クラリオン</h4>
-						<p>clarion</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/koito/koito.html">
-						<img class="img-thumbnail" src="/imgs/company/koito.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/koito/koito.html">
-						<h4>小糸製作所</h4>
-						<p>KOITO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/konica_minolta/konica_minolta.html">
-						<img class="img-thumbnail" src="/imgs/company/konica_minolta.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/konica_minolta/konica_minolta.html">
-						<h4>コニカミノルタ</h4>
-						<p>KONICA MINOLTA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/saxa_hd/saxa_hd.html">
-						<img class="img-thumbnail" src="/imgs/company/saxa_hd.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/saxa_hd/saxa_hd.html">
-						<h4>サクサホールディングス</h4>
-						<p>SAXA, saxa</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sanken_electric/sanken_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/sanken_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sanken_electric/sanken_electric.html">
-						<h4>サンケン電気</h4>
-						<p>SANKEN, SanKen</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sanyo_denki/sanyo_denki.html">
-						<img class="img-thumbnail" src="/imgs/company/sanyo_denki.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sanyo_denki/sanyo_denki.html">
-						<h4>山洋電気</h4>
-						<p>SANYO DENKI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/shibaura_mechatronics/shibaura_mechatronics.html">
-						<img class="img-thumbnail" src="/imgs/company/shibaura_mechatronics.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/shibaura_mechatronics/shibaura_mechatronics.html">
-						<h4>芝浦メカトロニクス</h4>
-						<p>SHiBAURA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sharp/sharp.html">
-						<img class="img-thumbnail" src="/imgs/company/sharp.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sharp/sharp.html">
-						<h4>シャープ</h4>
-						<p>SHARP</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/shinko_electric/shinko_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/shinko_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/shinko_electric/shinko_electric.html">
-						<h4>新光電気工業</h4>
-						<p>新光電気, SHINKO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/shindengen_electric/shindengen_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/shindengen_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/shindengen_electric/shindengen_electric.html">
-						<h4>新電元工業</h4>
-						<p>新電元, ShinDengen</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sinfonia/sinfonia.html">
-						<img class="img-thumbnail" src="/imgs/company/sinfonia.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sinfonia/sinfonia.html">
-						<h4>シンフォニアテクノロジー</h4>
-						<p>シンフォニア, SINFONIA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/jdi/jdi.html">
-						<img class="img-thumbnail" src="/imgs/company/jdi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/jdi/jdi.html">
-						<h4>ジャパンディスプレイ</h4>
-						<p>JDI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/gs_yuasa_corp/gs_yuasa_corp.html">
-						<img class="img-thumbnail" src="/imgs/company/gs_yuasa_corp.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/gs_yuasa_corp/gs_yuasa_corp.html">
-						<h4>ジーエス・ユアサコーポレーション</h4>
-						<p>GS YUASA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/suzuki/suzuki.html">
-						<img class="img-thumbnail" src="/imgs/company/suzuki.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/suzuki/suzuki.html">
-						<h4>鈴木</h4>
-						<p>SUZUKI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/stanley_electric/stanley_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/stanley_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/stanley_electric/stanley_electric.html">
-						<h4>スタンレー電気</h4>
-						<p>スタンレー, Stanley, RAYBRIG</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/seiko_epson/seiko_epson.html">
-						<img class="img-thumbnail" src="/imgs/company/seiko_epson.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/seiko_epson/seiko_epson.html">
-						<h4>セイコーエプソン</h4>
-						<p>エプソン, EPSON</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/seiwa_electric/seiwa_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/seiwa_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/seiwa_electric/seiwa_electric.html">
-						<h4>星和電機</h4>
-						<p>SEIWA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sony/sony.html">
-						<img class="img-thumbnail" src="/imgs/company/sony.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sony/sony.html">
-						<h4>ソニー</h4>
-						<p>SONY</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/sony_lsi_design/sony_lsi_design.html">
-						<img class="img-thumbnail" src="/imgs/company/sony_lsi_design.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/sony_lsi_design/sony_lsi_design.html">
-						<h4>ソニーLSIデザイン</h4>
-						<p>SLSI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/solar_frontier/solar_frontier.html">
-						<img class="img-thumbnail" src="/imgs/company/solar_frontier.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/solar_frontier/solar_frontier.html">
-						<h4>ソーラーフロンティア</h4>
-						<p>SOLAR FRONTIER</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/zojirushi/zojirushi.html">
-						<img class="img-thumbnail" src="/imgs/company/zojirushi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/zojirushi/zojirushi.html">
-						<h4>象印マホービン</h4>
-						<p>象印, ZOJIRUSHI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/tiger/tiger.html">
-						<img class="img-thumbnail" src="/imgs/company/tiger.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/tiger/tiger.html">
-						<h4>タイガー魔法瓶</h4>
-						<p>TIGER</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/taiyo_yuden/taiyo_yuden.html">
-						<img class="img-thumbnail" src="/imgs/company/taiyo_yuden.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/taiyo_yuden/taiyo_yuden.html">
-						<h4>太陽誘電</h4>
-						<p>TAIYO YUDEN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/daihen/daihen.html">
-						<img class="img-thumbnail" src="/imgs/company/daihen.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/daihen/daihen.html">
-						<h4>ダイヘン</h4>
-						<p>DAIHEN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/chino/chino.html">
-						<img class="img-thumbnail" src="/imgs/company/chino.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/chino/chino.html">
-						<h4>チノー</h4>
-						<p>CHINO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/twinbird/twinbird.html">
-						<img class="img-thumbnail" src="/imgs/company/twinbird.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/twinbird/twinbird.html">
-						<h4>ツインバード工業</h4>
-						<p>TWINBIRD</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/teikoku_tsushin_kogyo/teikoku_tsushin_kogyo.html">
-						<img class="img-thumbnail" src="/imgs/company/teikoku_tsushin_kogyo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/teikoku_tsushin_kogyo/teikoku_tsushin_kogyo.html">
-						<h4>帝国通信工業</h4>
-						<p>帝通, NOBLE</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/teac/teac.html">
-						<img class="img-thumbnail" src="/imgs/company/teac.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/teac/teac.html">
-						<h4>ティアック</h4>
-						<p>TEAC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/denyo/denyo.html">
-						<img class="img-thumbnail" src="/imgs/company/denyo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/denyo/denyo.html">
-						<h4>デンヨー</h4>
-						<p>Denyo</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/tel/tel.html">
-						<img class="img-thumbnail" src="/imgs/company/tel.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/tel/tel.html">
-						<h4>東京エレクトロン</h4>
-						<p>TOKYO ELECTRON, TEL</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/toko_takaoka/toko_takaoka.html">
-						<img class="img-thumbnail" src="/imgs/company/toko_takaoka.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/toko_takaoka/toko_takaoka.html">
-						<h4>東光高岳</h4>
-						<p>東光高岳</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/toshiba/toshiba.html">
-						<img class="img-thumbnail" src="/imgs/company/toshiba.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/toshiba/toshiba.html">
-						<h4>東芝</h4>
-						<p>TOSHIBA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/toshiba_tec/toshiba_tec.html">
-						<img class="img-thumbnail" src="/imgs/company/toshiba_tec.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/toshiba_tec/toshiba_tec.html">
-						<h4>東芝テック</h4>
-						<p>TEC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/toshiba_lifestyle/toshiba_lifestyle.html">
-						<img class="img-thumbnail" src="/imgs/company/toshiba_lifestyle.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/toshiba_lifestyle/toshiba_lifestyle.html">
-						<h4>東芝ライフスタイル</h4>
-						<p>東芝ライフスタイル</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/toyo_denki_seizo/toyo_denki_seizo.html">
-						<img class="img-thumbnail" src="/imgs/company/toyo_denki_seizo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/toyo_denki_seizo/toyo_denki_seizo.html">
-						<h4>東洋電機製造</h4>
-						<p>TOYO DENKI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nikon/nikon.html">
-						<img class="img-thumbnail" src="/imgs/company/nikon.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nikon/nikon.html">
-						<h4>ニコン</h4>
-						<p>Nikon</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nissin_electric/nissin_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/nissin_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nissin_electric/nissin_electric.html">
-						<h4>日新電機</h4>
-						<p>NISSIN ELECTRIC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nitto_kogyo/nitto_kogyo.html">
-						<img class="img-thumbnail" src="/imgs/company/nitto_kogyo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nitto_kogyo/nitto_kogyo.html">
-						<h4>日東工業</h4>
-						<p>NiTO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nippon-antenna/nippon-antenna.html">
-						<img class="img-thumbnail" src="/imgs/company/nippon-antenna.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nippon-antenna/nippon-antenna.html">
-						<h4>日本アンテナ</h4>
-						<p>NIPPON ANTENNA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nippon_signal/nippon_signal.html">
-						<img class="img-thumbnail" src="/imgs/company/nippon_signal.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nippon_signal/nippon_signal.html">
-						<h4>日本信号</h4>
-						<p>NIPPON SIGNAL</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nicera/nicera.html">
-						<img class="img-thumbnail" src="/imgs/company/nicera.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nicera/nicera.html">
-						<h4>日本セラミック</h4>
-						<p>日セラ, NiceRa</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nec/nec.html">
-						<img class="img-thumbnail" src="/imgs/company/nec.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nec/nec.html">
-						<h4>日本電気</h4>
-						<p>NEC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/jae/jae.html">
-						<img class="img-thumbnail" src="/imgs/company/jae.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/jae/jae.html">
-						<h4>日本航空電子工業</h4>
-						<p>日本航空電子, JAE</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nihon_kohden/nihon_kohden.html">
-						<img class="img-thumbnail" src="/imgs/company/nihon_kohden.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nihon_kohden/nihon_kohden.html">
-						<h4>日本光電工業</h4>
-						<p>日本光電, NIHON KOHDEN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/cmk/cmk.html">
-						<img class="img-thumbnail" src="/imgs/company/cmk.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/cmk/cmk.html">
-						<h4>日本シイエムケイ</h4>
-						<p>CMK</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nidec/nidec.html">
-						<img class="img-thumbnail" src="/imgs/company/nidec.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nidec/nidec.html">
-						<h4>日本電産</h4>
-						<p>Nidec</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/jem/jem.html">
-						<img class="img-thumbnail" src="/imgs/company/jem.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/jem/jem.html">
-						<h4>日本電子材料</h4>
-						<p>JEM</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/ndk/ndk.html">
-						<img class="img-thumbnail" src="/imgs/company/ndk.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/ndk/ndk.html">
-						<h4>日本電波工業</h4>
-						<p>NDK</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nihon-trim/nihon-trim.html">
-						<img class="img-thumbnail" src="/imgs/company/nihon-trim.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nihon-trim/nihon-trim.html">
-						<h4>日本トリム</h4>
-						<p>TRiM</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/nohmi/nohmihtml">
-						<img class="img-thumbnail" src="/imgs/company/nohmi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/nohmi/nohmi.html">
-						<h4>能美防災</h4>
-						<p>能美, NOHMI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/harada/harada.html">
-						<img class="img-thumbnail" src="/imgs/company/harada.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/harada/harada.html">
-						<h4>原田工業</h4>
-						<p>HARADA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/buffalo/buffalo.html">
-						<img class="img-thumbnail" src="/imgs/company/buffalo.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/buffalo/buffalo.html">
-						<h4>バッファロー</h4>
-						<p>BUFFALO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/panasonic/panasonic.html">
-						<img class="img-thumbnail" src="/imgs/company/panasonic.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/panasonic/panasonic.html">
-						<h4>パナソニック</h4>
-						<p>Panasonic</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/hitachi/hitachi.html">
-						<img class="img-thumbnail" src="/imgs/company/hitachi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/hitachi/hitachi.html">
-						<h4>日立製作所</h4>
-						<p>日立, 日製, HITACHI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/hirose_electric/hirose_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/hirose_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/hirose_electric/hirose_electric.html">
-						<h4>ヒロセ電機</h4>
-						<p>HIROSE, HRS</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fanuc/fanuc.html">
-						<img class="img-thumbnail" src="/imgs/company/fanuc.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fanuc/fanuc.html">
-						<h4>ファナック</h4>
-						<p>FANUC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fukuda_denshi/fukuda_denshi.html">
-						<img class="img-thumbnail" src="/imgs/company/fukuda_denshi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fukuda_denshi/fukuda_denshi.html">
-						<h4>フクダ電子</h4>
-						<p>FUKUDA DENSHI</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/foster/foster.html">
-						<img class="img-thumbnail" src="/imgs/company/foster.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/foster/foster.html">
-						<h4>フォスター電機</h4>
-						<p>FOSTER</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fuji_xerox/fuji_xerox.html">
-						<img class="img-thumbnail" src="/imgs/company/fuji_xerox.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fuji_xerox/fuji_xerox.html">
-						<h4>富士ゼロックス</h4>
-						<p>FUJI Xerox</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fujitsu/fujitsu.html">
-						<img class="img-thumbnail" src="/imgs/company/fujitsu.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fujitsu/fujitsu.html">
-						<h4>富士通</h4>
-						<p>FUJITSU</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fujitsu-general/fujitsu-general.html">
-						<img class="img-thumbnail" src="/imgs/company/fujitsu-general.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fujitsu-general/fujitsu-general.html">
-						<h4>富士通ゼネラル</h4>
-						<p>富士通ゼネラル</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fuji_electric/fuji_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/fuji_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fuji_electric/fuji_electric.html">
-						<h4>富士電機</h4>
-						<p>Fe</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/futaba/futaba.html">
-						<img class="img-thumbnail" src="/imgs/company/futaba.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/futaba/futaba.html">
-						<h4>双葉電子工業</h4>
-						<p>Futaba</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/fb/fb.html">
-						<img class="img-thumbnail" src="/imgs/company/fb.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/fb/fb.html">
-						<h4>古河電池</h4>
-						<p>FURUKAWA BATTERY, FB</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/furuno_electric/furuno_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/furuno_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/furuno_electric/furuno_electric.html">
-						<h4>古野電気</h4>
-						<p>FURUNO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/brother/brother.html">
-						<img class="img-thumbnail" src="/imgs/company/brother.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/brother/brother.html">
-						<h4>ブラザー工業</h4>
-						<p>brother</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/helios_techno_hd/helios_techno_hd.html">
-						<img class="img-thumbnail" src="/imgs/company/helios_techno_hd.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/helios_techno_hd/helios_techno_hd.html">
-						<h4>ヘリオス テクノ ホールディング</h4>
-						<p>Helios Techno</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/hdk/hdk.html">
-						<img class="img-thumbnail" src="/imgs/company/hdk.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/hdk/hdk.html">
-						<h4>北陸電気工業</h4>
-						<p>HOKURIKU, HDK</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/horiba/horiba.html">
-						<img class="img-thumbnail" src="/imgs/company/horiba.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/horiba/horiba.html">
-						<h4>堀場製作所</h4>
-						<p>HORIBA</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/htk/htk.html">
-						<img class="img-thumbnail" src="/imgs/company/htk.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/htk/htk.html">
-						<h4>本多通信工業</h4>
-						<p>HTK</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/mouse_computer/mouse_computer.html">
-						<img class="img-thumbnail" src="/imgs/company/mouse_computer.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/mouse_computer/mouse_computer.html">
-						<h4>マウスコンピューター</h4>
-						<p>mouse</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/maspro_denkoh/maspro_denkoh.html">
-						<img class="img-thumbnail" src="/imgs/company/maspro_denkoh.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/maspro_denkoh/maspro_denkoh.html">
-						<h4>マスプロ電工</h4>
-						<p>MASPRO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/mitsubishi_electric/mitsubishi_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/mitsubishi_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/mitsubishi_electric/mitsubishi_electric.html">
-						<h4>三菱電機</h4>
-						<p>MITSUBUSHI ELECTRIC, MELCO</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/minebeamitsumi/minebeamitsumi.html">
-						<img class="img-thumbnail" src="/imgs/company/minebeamitsumi.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/minebeamitsumi/minebeamitsumi.html">
-						<h4>ミネベアミツミ</h4>
-						<p>MinebeaMitsumi, NMB</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/murata/murata.html">
-						<img class="img-thumbnail" src="/imgs/company/murata.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/murata/murata.html">
-						<h4>村田製作所</h4>
-						<p>ムラタ, muRata</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/meidensha/meidensha.html">
-						<img class="img-thumbnail" src="/imgs/company/meidensha.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/meidensha/meidensha.html">
-						<h4>明電舎</h4>
-						<p>MEIDEN</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/yaskawa_electric/yaskawa_electric.html">
-						<img class="img-thumbnail" src="/imgs/company/yaskawa_electric.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/yaskawa_electric/yaskawa_electric.html">
-						<h4>安川電機</h4>
-						<p>YASKAWA, YEC</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/ricoh/ricoh.html">
-						<img class="img-thumbnail" src="/imgs/company/ricoh.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/ricoh/ricoh.html">
-						<h4>リコー</h4>
-						<p>RICOH</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/renesas_electronics/renesas_electronics.html">
-						<img class="img-thumbnail" src="/imgs/company/renesas_electronics.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/renesas_electronics/renesas_electronics.html">
-						<h4>ルネサスエレクトロニクス</h4>
-						<p>ルネサス, RENESAS</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/lasertec/lasertec.html">
-						<img class="img-thumbnail" src="/imgs/company/lasertec.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/lasertec/lasertec.html">
-						<h4>レーザーテック</h4>
-						<p>Lasertec</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/rohm/rohm.html">
-						<img class="img-thumbnail" src="/imgs/company/rohm.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/rohm/rohm.html">
-						<h4>ローム</h4>
-						<p>ROHM SEMICONDUCTOR</p>
-					</a>
-				</div>
-
-			</article>
-
-			<article class="m-3 row rounded">
-
-				<div class="col-4 p-2 w-100 h-100">
-					<a href="/company/wacom/wacom.html">
-						<img class="img-thumbnail" src="/imgs/company/wacom.jpg" width="90" height="90">
-					</a>
-				</div>
-
-				<div class="col-8 p-2 w-100 h-100 text-left">
-					<a href="/company/wacom/wacom.html">
-						<h4>ワコム</h4>
-						<p>wacom</p>
-					</a>
-				</div>
-
-			</article>
-
-		</div>
-	</section>
-
-
-
-	<!-- AdMax(業界研究大百科) -->
-	<div class="text-center">
-		<script src="https://adm.shinobi.jp/o/fc6e5dbaed0774622e44a5b9473a322a"></script>
-	</div>
-
-
-
-	<!-- Footer -->
-	<footer class="tus-block footer-small bg-dark">
-		<div class="container">
-			<div class="row text-center align-items-center">
-				<div class="col-12">
-
-					<ul class="nav justify-content-center">
-
-						<li class="nav-item">
-							<a class="nav-link" href="/index.html">Home</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="/about.html">About</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="/contact.html">Contact</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="/privacy_policy.html">Privacy Policy</a>
-						</li>
-
-					</ul>
-	
-					<p class="h5 mt-5">© 2018-2021 業界研究大百科</p>
-
-				</div>
-			</div>
-		</div>
-	</footer>
-
-
-
-	<!-- Paga Top Button -->
-	<p id="pagetopbtn"><a href="#">▲ Page Top</a></p>
-
-
-
-	<!--Load Script-->
-	<script type="text/javascript" src="/js/jquery.js"></script>
-	<script type="text/javascript" src="/js/popper.js"></script>
-	<script type="text/javascript" src="/js/bootstrap.js"></script>
-
-</body>
+	</body>
 
 </html>
 
