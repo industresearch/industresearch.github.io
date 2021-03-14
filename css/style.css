@@ -29,7 +29,7 @@ article {
 
 body {
 	margin: 0;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 1.5;
 	color: #000;
@@ -308,19 +308,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1, .h1 {
-	font-size: 22px;
-}
-
-h2, .h2 {
-	font-size: 20px;
-}
-
-h3, .h3 {
 	font-size: 18px;
 }
 
-h4, .h4 {
+h2, .h2 {
+	font-size: 17px;
+}
+
+h3, .h3 {
 	font-size: 16px;
+}
+
+h4, .h4 {
+	font-size: 15px;
 }
 
 h5, .h5 {
@@ -328,7 +328,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .lead {
