@@ -6336,6 +6336,10 @@ a .text-dark:focus, a .text-dark:hover {
 	background: #00bfff;
 }
 
+.card a .card-active {
+	background: #87cefa;
+}
+
 .bx-wrapper {
 	position: relative;
 	margin-bottom: 60px;
