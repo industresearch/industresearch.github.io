@@ -6849,6 +6849,122 @@ object {
 	outline: 0;
 }
 
+.info_tag {
+	width: 260px;
+	padding: 15px;
+	margin: 2em auto;
+	background: #f7f092;
+	color: #000;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.03);
+	transform:rotate(2deg);
+	word-break: break-all;
+}
+
+.info_tag p {
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+
+.info_tag_tape {
+	width: 50%;
+	height: 35px;
+	margin: -25px auto 0;
+	background: #989898;
+	transform: rotate(-3deg);
+	opacity: 0.1;
+}
+
+.info_tag_title {
+	text-align: center;
+	font-size: 1.3em !important;
+	margin-top: 10px !important;
+}
+
+.info_tag_subtitle {
+	text-align: center;
+	font-size: 0.7em !important;
+	margin-bottom: 1em !important;
+}
+
+.q_a {
+	width: 100%;
+	margin: 1.5em 0;
+	overflow: hidden;
+}
+
+.q_a .question_icon img {
+	width: 100%;
+	height: auto;
+	border :solid 3px #adffd6;
+	border-radius: 50%;
+	background: #adf12a;
+}
+
+.q_a .question {
+	width: 100%;
+}
+
+.q_says {
+	display: inline-block;
+	position: relative;
+	margin: 0px 0px 10px 0px;
+	padding: 15px 10px;
+	border-radius: 15px;
+	background: #ccffcc;
+}
+
+.q_says:after {
+	content: "";
+	display:inline-block;
+	position:absolute;
+	top:15px;
+	left: -24px;
+	border: 12px solid transparent;
+	border-right: 12px solid #ccffcc;
+}
+
+.q_says p {
+	margin: 0;
+	padding: 0;
+}
+
+.q_a .answer_icon img {
+	width: 100%;
+	height: auto;
+	border :solid 3px #d7ebfe;
+	border-radius: 50%;
+	background: #99ccff;
+}
+
+.q_a .answer {
+	width: 100%;
+}
+
+.a_says {
+	display: inline-block;
+	position: relative;
+	margin: 0px 0px 10px 0px;
+	padding: 15px 10px;
+	border-radius: 15px;
+	background: #d7ebfe;
+}
+
+.a_says:after {
+	content: "";
+	display:inline-block;
+	position:absolute;
+	top:15px;
+	right: -24px;
+	border: 12px solid transparent;
+	border-left: 12px solid #d7ebfe;
+}
+
+.a_says p {
+	margin: 0;
+	padding: 0;
+}
+
 @media (max-width: 575.98px) {
 
 	.navbar-expand-sm > .container, .navbar-expand-sm > .container-fluid {
@@ -8307,6 +8423,14 @@ object {
 
 	.offset-md-1 {
 		margin-left: 8.333333%;
+		margin-right: 8.333333%;
+	}
+
+	.offset-md-l-1 {
+		margin-left: 8.333333%;
+	}
+
+	.offset-md-r-1 {
 		margin-right: 8.333333%;
 	}
 
