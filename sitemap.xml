@@ -11162,21 +11162,21 @@
   <priority>0.6</priority>
 </url>
 
-<!-- sony -->
+<!-- sony_group -->
 <url>
-  <loc>https://industresearch.github.io/company/sony/sony.html</loc>
+  <loc>https://industresearch.github.io/company/sony_group/sony_group.html</loc>
   <priority>0.7</priority>
 </url>
 <url>
-  <loc>https://industresearch.github.io/company/sony/0_back_number.html</loc>
+  <loc>https://industresearch.github.io/company/sony_group/0_back_number.html</loc>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://industresearch.github.io/company/sony/0_business_area.html</loc>
+  <loc>https://industresearch.github.io/company/sony_group/0_business_area.html</loc>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://industresearch.github.io/company/sony/0_history.html</loc>
+  <loc>https://industresearch.github.io/company/sony_group/0_history.html</loc>
   <priority>0.6</priority>
 </url>
 
