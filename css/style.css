@@ -80,6 +80,10 @@ ol ol, ul ul, ol ul, ul ol {
 	margin-bottom: 0;
 }
 
+ul {
+	list-style-type: none;
+}
+
 dt {
 	font-weight: 700;
 }
@@ -6223,8 +6227,8 @@ a .text-dark:focus, a .text-dark:hover {
 	border-radius: 15px 0px 0px 15px;
 }
 
-.contents ul li:before { 
-	display: inline-block; 
+.contents ul li:before {
+	display: inline-block;
 	vertical-align: middle;
 	content: '';
 	width: 1em;
@@ -6554,7 +6558,7 @@ table td {
 
 .company_box {
 	padding: 1em 1em;
-	margin: 1.5em 0.5em ;
+	margin: 1.0em 2.0em ;
 	border: double 5px #4ec4d3;
 
 }
@@ -6571,8 +6575,8 @@ table td {
 }
 
 .history ul li, .history ol li {
-	line-height: 1.5;
-	padding: 0.5em 0;
+	line-height: 1.0;
+	padding: 0.25em 0;
 }
 
 .comment {
@@ -6863,7 +6867,7 @@ object {
 .info_tag p {
 	margin: 0;
 	padding: 0;
-	font-size: 0.9em;
+	font-size: 1.0em;
 }
 
 .info_tag_tape {
@@ -6877,14 +6881,14 @@ object {
 
 .info_tag_title {
 	text-align: center;
-	font-size: 1.3em !important;
+	font-size: 1.0em !important;
 	margin-top: 10px !important;
 }
 
 .info_tag_subtitle {
 	text-align: center;
-	font-size: 0.7em !important;
-	margin-bottom: 1em !important;
+	font-size: 1.2em !important;
+	margin-bottom: 0.5em !important;
 }
 
 .q_a {
