@@ -6560,12 +6560,16 @@ table td {
 	padding: 1em 1em;
 	margin: 1.0em 2.0em ;
 	border: double 5px #4ec4d3;
-
 }
 
 .tab {
 	text-indent: 2em;
 }
+
+ul, ol {
+	padding: 0.5em 0.5em 0 0.5em;
+}
+
 
 .history ul, .history ol {
 	color: #1e366a;
@@ -9820,6 +9824,10 @@ object {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
+	}
+
+	ul, ol {
+		padding: 0.5em 1.5em 0 1.5em;
 	}
 
 }
