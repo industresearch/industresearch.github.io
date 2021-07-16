@@ -14,16 +14,15 @@ $(function () {
 
 		// 検索ボックスに値が入っている場合
 		if (searchText != '') {
-			$('.target-area section div div article').each(function() {
+			$('.target-area section div div article a div div h2').each(function() {
 				targetText = $(this).text();
 
 				// 検索対象となるリストに入力された文字列が存在するかどうかを判断
 				if (targetText.indexOf(searchText) != -1) {
 					searchResult.push(targetText);
-					$(this).removeClass('invisible');
+					$(this).removeClass('d-none');
 				} else {
-					$(this).addClass('invisible');
-
+					$(this).addClass('d-none');
 				}
 			});
 
@@ -108,11 +107,9 @@ $(function () {
 			$('#card_re').addClass('show');
 			$('#card_ro').addClass('show');
 			$('#card_wa').addClass('show');
-			$('#card_official').addClass('show');
 
 		} else {
-			$('.target-area section div div article').removeClass('invisible');
-
+			$('.target-area section div div article').removeClass('d-none');
 			$('#card-a').removeClass('show');
 			$('#card-b').removeClass('show');
 			$('#card-c').removeClass('show');
@@ -184,7 +181,6 @@ $(function () {
 			$('#card_re').removeClass('show');
 			$('#card_ro').removeClass('show');
 			$('#card_wa').removeClass('show');
-			$('#card_official').removeClass('show');
 		}
 	};
 
